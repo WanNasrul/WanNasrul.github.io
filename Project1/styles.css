@@ -1,0 +1,500 @@
+
+body {
+    /*background:-webkit-linear-gradient(-45deg, #d2efde, #87d78d)*/
+    background-image:url("./Images/soothing-fresh-green-pastel-color-background-with-abstract-elements-and-creative-tropical-plants-modern-trendy-social-media-template-free-vector.jpg");
+    background-size:cover;
+    margin: 50px;
+}
+
+
+
+#header{
+    /*font-family: myFont;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(42, 101, 77);*/
+    font-weight:bold;
+    font-family: montserrat;
+    font-size: 60px;
+    -webkit-text-fill-color:transparent; 
+    text-shadow: 
+                 0px 0px 0px #2b9b70,
+                 0px 3px 0px rgb(0, 111, 119);
+    opacity: 1;
+    text-align: center;
+}
+
+p{
+    font-family:montserrat;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+#groupname {
+    font-weight:bold;
+    font-size:20;
+    text-align: center;
+    margin: 20px;
+}
+
+#pagetitle{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+#nav{
+    padding: 5;
+    margin: -7;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 20px;
+    opacity: 1;
+}
+
+
+.header{
+    background-image: linear-gradient(0deg, #57c180d1, #a7f0a9ad);
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border: 3px solid rgb(0, 123, 70);
+    opacity: 1;
+    overflow:hidden;
+}
+
+nav #nav a{
+    color: rgb(0, 0, 0);
+    display: block;
+    box-shadow: 0px 10px 0px -1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 10px 0px -1px rgba(0, 155, 163, 0.427);
+    -moz-box-shadow: 0px 10px 0px -1px rgba(0, 0, 0, 0);
+    background-color: rgb(135, 201, 151);
+    margin: 0 5px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-weight:bold;
+    text-align: center;
+}
+
+nav #nav a:hover{
+    background: rgba(57, 88, 57, 0.237);
+    transition-duration: 0.3s;
+    font-size: 25px;
+}
+
+nav #nav a.active{
+    box-shadow: 0px 10px 0px -1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 10px 0px -1px rgba(11, 112, 117, 0.582);
+    -moz-box-shadow: 0px 10px 0px -1px rgba(0, 0, 0, 0);
+    background-color: rgb(112, 212, 199);
+}
+
+@font-face{
+    font-family: myFont;
+    src:url("Rosie Brown Serif Demo.otf")
+}
+
+@font-face{
+    font-family: Montserrat;
+    src:url("Montserrat-Medium.otf")
+}
+
+#intro-paragraph1{
+    background-color:#a7f0aa;
+}
+
+/*#macbookpic1{
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+    test
+    test
+    test
+}
+*/
+
+#banner1{
+    background-image: url("./Images/macbook-air-m2-1 (1).webp");    
+    display:block;
+    margin: 0 auto;
+    border-radius: 50px 50px 0px 0px;
+    width: 100%;
+    height: 400px;
+    background-size:cover;
+    max-height:500px;
+    background-position: bottom center;
+    
+}
+
+#banner1 .content1 h1{
+    border: 3px solid white;
+    border-radius: 0;
+    position: relative;
+    top: 100px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+#banner2{
+    background-image: url("./Images/www.lenovo.jpg");
+    border-radius: 0 0 50px 50px;
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-size:cover;
+    max-height:500px;
+    background-position: bottom center;
+    
+}
+
+#banner2 .content2 h1{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    margin: 0px auto;
+    font-family: Montserrat;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.homeparagraph {
+    font-size: 25px;
+}
+
+
+.youtubevideo1{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*INTRODUCTION PAGE*/
+
+
+
+.body1 {
+    font-size: 40px;
+    margin: 0 7%;
+}
+
+h1{
+    font-family:Montserrat;
+    font-size: 40px;
+    text-align: center;
+}
+
+#banner1{
+    background-image: url("./Images/macbook-air-m2-1 (1).webp");    display:block;
+    margin: 0 auto;
+    border-radius: 50px 50px 0px 0px;
+    width: 100%;
+    height: 400px;
+    background-size:cover;
+    max-height:500px;
+    background-position: bottom center;
+    
+  }
+  
+  #banner1 .content1 h1{
+    border: 3px solid white;
+    border-radius: 0;
+    position: relative;
+    top: 100px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    font-size: 50px;
+  }
+  
+  #banner2{
+    background-image: url("./Images/www.lenovo.jpg");
+    border-radius: 0 0 50px 50px;
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-size:cover;
+    max-height:500px;
+    background-position: bottom center;
+    
+  }
+  
+  #banner2 .content2 h1{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    margin: 0px auto;
+    font-family: Montserrat;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    font-size: 50px;
+  }
+  
+  .homeparagraph {
+    font-size: 25px;
+  }
+  
+    
+    /* Pattern styles */
+  
+   /*MACBOOK AIR PART*/
+  
+  .container {
+      display: flex;
+    }
+    
+  .left-half {
+      background-color: #a7dc9d;
+      flex: 1;
+      padding: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      border-radius: 50px 0 0 50px;
+    }
+    
+  .right-half {
+      background-color: #65d2a8;
+      flex: 1;
+      padding: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      height: 500px;
+      overflow:scroll;
+      border-radius: 0 50px 50px 0;
+    }
+  
+    .container2 {
+      display: flex;
+      margin: 100px auto;
+    }
+  
+    /*LENOVO LOQ PART*/
+  .right-half2 {
+      background-color: #a7dc9d;
+      flex: 1;
+      padding: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      border-radius: 0 50px 50px 0;
+    }
+    
+  .left-half2 {
+      background-color: #65d2a8;
+      flex: 1;
+      padding: 1rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      height: 500px;
+      overflow:scroll;
+      border-radius: 50px 0 0 50px;
+    }
+  
+  p {
+      font-size: 25;
+  
+  }
+  
+  #mactitleintro {
+    font-size: 40px;
+    color: rgb(0, 86, 24);
+  }
+  
+  #loqtitleintro {
+    font-size: 40px;
+    color: rgb(0, 86, 24);
+  }
+
+
+  /*BATTERY LIFE*/
+
+ .list {
+  font-size: 25px;
+  font-family: Montserrat;
+  margin: 5%;
+  line-height: 70px;
+ }
+
+ .left-halfbattery {
+  background-color: #a7dc9d;
+  flex: 1;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 50px 0 0 50px;
+}
+
+.right-halfbattery {
+  background-color: #65d2a8;
+  flex: 1;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 0 50px 50px 0;
+}
+
+.containerbattery {
+  display: flex;
+}
+
+/* TEMPERATURE */
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.layout {
+  height: auto;
+  width: 1580px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  display: grid;
+  grid:
+    "pidot3 pidot4" 1fr
+    / 1fr 1fr;
+  gap: 8px;
+
+  /*grid:
+  "pidot1 pidot2" 1fr
+  / 1fr 1fr;
+  test
+  test*/
+
+}
+
+
+.body1 { grid-area: pidot3; }
+.body2 { grid-area: pidot4; }
+
+#name1 p{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 0;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight:bold;
+  font-size: 50px;
+}
+
+/* PROCESSORS TABLE */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background: rgb(55, 128, 67);
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #bddfa3;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: Montserrat;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+  width: 33.3333%;
+}
+
+#result1 {
+  width: 540px;
+  height: 248px;
+}
+
+#result2 {
+  width: 540px;
+  height: 516px;
+}
+
+#result3 {
+  width: 516px;
+  height: 540px;
+}
+
+#result4 {
+  width: 540px;
+  height: 527px;
+}
+
+#compare, #what {
+  text-align: center;
+  font-size: 30px;
+  font-family: Montserrat;
+}
+
+#processor {
+  width: 600px;
+  height: 400px;
+}
+
+#headlines {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+  /*background-image: url(Images/csgo\ fps\ lenovo.png);
+Bullet Color, You use this
+if you want to put image for bullet point */
+li {
+  list-style-type: '👉';
+  padding-inline-start: 1ch;
+
+}
+
+dd {
+  display: list-item;
+  list-style-type: "💎";
+  padding-inline-start: 1ch;
+}
